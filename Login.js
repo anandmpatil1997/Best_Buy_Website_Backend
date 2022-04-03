@@ -35,7 +35,7 @@ let Login = async() => {
     
     login_data =JSON.stringify(login_data);         
     
-    let res = await fetch("http://localhost:8080/login", {
+    let res = await fetch("https://backend-bestbuy.herokuapp.com/login", {
         method: "POST",
         body: login_data,
     

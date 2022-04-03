@@ -65,7 +65,7 @@ let Register = async() => {
     
     register_data =JSON.stringify(register_data);         
     
-    let res = await fetch("http://localhost:8080/register", {
+    let res = await fetch("https://backend-bestbuy.herokuapp.com/register", {
         method: "POST",
         body: register_data,
     
