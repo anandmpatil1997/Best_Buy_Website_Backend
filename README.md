@@ -1,0 +1,1 @@
+This is a clone of Best Buy.that's provide E-buying facility and Electronics items. We use this text Stack to create our project, Text-stack - HTML, CSS, JavaScript, Mongodb, ExpressJS, Localhost etc.
